@@ -30,4 +30,10 @@ The weather data is fetched from the OpenWeatherMap API.
 
 ## Screenshots 
 ![Screenshot 2023-11-24 183521](https://github.com/Sanjana-np/Backend-API-for-Weather-Forecast/assets/136239239/4a0cae74-c58f-4a6a-bdca-a6cde747bdca)
+![Screenshot 2023-11-24 184828](https://github.com/Sanjana-np/Backend-API-for-Weather-Forecast/assets/136239239/8b2f850b-d2cd-4cca-a81a-7d05767e34d5)
+![Screenshot 2023-11-24 185009](https://github.com/Sanjana-np/Backend-API-for-Weather-Forecast/assets/136239239/83dc2f82-4e2e-4d93-9f3e-eb878c0b4bc3)
+![Screenshot 2023-11-24 185041](https://github.com/Sanjana-np/Backend-API-for-Weather-Forecast/assets/136239239/9d7c650a-1f4c-44bb-bc31-342bf3569c74)
+
+
+
 
