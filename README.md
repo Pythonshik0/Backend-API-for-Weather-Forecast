@@ -17,7 +17,8 @@ The weather data is fetched from the OpenWeatherMap API.
 4. Open Postman and create a new request to `http://127.0.0.1:5000/weather` with the `GET` method.
 5. Add a query param `location` with the value being the city and state (eg: `Bengaluru, KA`).
 6. Send the request and check the output.
-
+7. NOTE: You can check the accuracy of the retrieved weather data by `OpenWeatherMap`.
+   
 ## Detailed explanation 
 1. Run the python script in VScode
 2. In the terminal you can see the base url `http://127.0.0.1:5000`. When you click on this url, you will see 404 error.
@@ -33,6 +34,14 @@ The weather data is fetched from the OpenWeatherMap API.
 ![Screenshot 2023-11-24 184828](https://github.com/Sanjana-np/Backend-API-for-Weather-Forecast/assets/136239239/8b2f850b-d2cd-4cca-a81a-7d05767e34d5)
 ![Screenshot 2023-11-24 185009](https://github.com/Sanjana-np/Backend-API-for-Weather-Forecast/assets/136239239/83dc2f82-4e2e-4d93-9f3e-eb878c0b4bc3)
 ![Screenshot 2023-11-24 185041](https://github.com/Sanjana-np/Backend-API-for-Weather-Forecast/assets/136239239/9d7c650a-1f4c-44bb-bc31-342bf3569c74)
+
+## Additionals 
+1. This python script accepts multiple query parameters. The code includes the ability to retrieve weather information for multiple locations through the `/weather` endpoint. 
+2. The code includes try-except blocks to catch and handle exceptions that may occur during API requests or data processing.
+3. Appropriate status codes are returned in the API responses, such as `400 for bad requests`, `200 for response` and `500 for internal server errors`.
+
+
+
 
 
 
