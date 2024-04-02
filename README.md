@@ -1,33 +1,33 @@
-# Backend-API-for-Weather-Forecast
+# Серверный API для прогнозирования погоды
 
-# Weather API with Flask
-This project implements a simple weather API using Flask, 
-allowing users to retrieve current weather information for multiple locations. 
-The weather data is fetched from the OpenWeatherMap API.
+# Weather API с Flask
+В этом проекте реализован простой погодный API с использованием Flask,
+позволяющий пользователям получать текущую информацию о погоде для нескольких местоположений.
+Данные о погоде извлекаются из OpenWeatherMap API.
 
-### Prerequisites
-- Python 
+### Предварительные условия
+- Python
 - Flask
-- Requests library
+- Библиотека запросов
 
-### Brief Procedure
-1. Install the required libraries.
-2. Get your OpenWeatherMap API key.
-3. Run the application.
-4. Open Postman and create a new request to `http://127.0.0.1:5000/weather` with the `GET` method.
-5. Add a query param `location` with the value being the city and state (eg: `Bengaluru, KA`).
-6. Send the request and check the output.
-7. NOTE: You can check the accuracy of the retrieved weather data by `OpenWeatherMap`.
-   
-## Detailed explanation 
-1. Run the python script in VScode
-2. In the terminal you can see the base url `http://127.0.0.1:5000`. When you click on this url, you will see 404 error.
-3. Now go to your Postman workspace, set the request type to `GET`.
-4. Enter the URL for your Flask API endpoint i.e, `http://127.0.0.1:5000/weather?`.
-5. Click on the "Params" tab. In the "Key" column, enter `location`. In the "Value" column, enter the city and state for which you want to retrieve the weather information.
-6. Click the send button to make the request.
-7. Now go back to the base url, inorder to fetch the weather data, you have to append the base url with the api endpoint i.e, `http://127.0.0.1:5000/weather?location=city,state` (eg: `http://127.0.0.1:5000/weather?location=Bengaluru, Karnataka&location=Mysore, Karnataka`).
-8. Now you can see the json file.
+### Краткая процедура
+1. Установите необходимые библиотеки.
+2. Получите свой API-ключ OpenWeatherMap.
+3. Запустите приложение.
+4. Откройте Postman и создайте новый запрос на `http://127.0.0.1:5000/weather` с помощью метода `GET`.
+5. Добавьте параметр запроса `местоположение`, указав в нем город и штат (например, "Бангалор, Калифорния").
+6. Отправьте запрос и проверьте результат.
+7. ПРИМЕЧАНИЕ: Вы можете проверить точность полученных данных о погоде с помощью "OpenWeatherMap".
+
+## Подробное объяснение
+1. Запустите скрипт на python в VSCode
+2. В терминале вы можете увидеть базовый URL-адрес `http://127.0.0.1:5000`. Когда вы нажмете на этот URL-адрес, вы увидите сообщение об ошибке 404.
+3. Теперь перейдите в рабочее пространство Postman и задайте тип запроса "ПОЛУЧИТЬ".
+4. Введите URL-адрес конечной точки вашего Flask API, т.е. `http://127.0.0.1:5000/weather?`.
+5. Перейдите на вкладку "Параметры". В столбце "Ключ" введите "местоположение". В столбце "Значение" введите город и штат, для которых вы хотите получить информацию о погоде.
+6. Нажмите кнопку "Отправить", чтобы отправить запрос.
+7. Теперь вернитесь к базовому URL-адресу, чтобы получить данные о погоде, вы должны добавить базовый URL-адрес к конечной точке api, т.е. (например: `http://127.0.0.1:5000/weather?location=city,state` (`http://127.0.0.1:5000/weather?location=Bengaluru, Karnataka&location=Mysore, Karnataka`).
+8. Теперь вы можете просмотреть файл json.
 
 ## Screenshots 
 ![Screenshot 2023-11-24 183521](https://github.com/Sanjana-np/Backend-API-for-Weather-Forecast/assets/136239239/4a0cae74-c58f-4a6a-bdca-a6cde747bdca)
@@ -39,6 +39,11 @@ The weather data is fetched from the OpenWeatherMap API.
 1. This python script accepts multiple query parameters. The code includes the ability to retrieve weather information for multiple locations through the `/weather` endpoint. 
 2. The code includes try-except blocks to catch and handle exceptions that may occur during API requests or data processing.
 3. Appropriate status codes are returned in the API responses, such as `400 for bad requests`, `200 for response` and `500 for internal server errors`.
+
+## ## Дополнительно
+1. Этот скрипт на python принимает несколько параметров запроса. Код включает в себя возможность получения информации о погоде для нескольких местоположений через конечную точку `/weather`.
+2. Код включает в себя блоки try-except для перехвата и обработки исключений, которые могут возникать во время запросов API или обработки данных.
+3. В ответах API возвращаются соответствующие коды состояния, такие как "400 для неверных запросов", "200 для ответа" и "500 для внутренних ошибок сервера`.
 
 
 
